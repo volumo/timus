@@ -18,13 +18,14 @@ for line in sys.stdin:
    text += line
 j = text.split('#')
 words = j[0].split('\n')
-#print words
-#print j[1].split(' ')
+
+
 raw = j[1]
 w2 = []
 w = ''
 a = ''
 a2 = []
+
 for u in raw:
 	if u.isalpha():
 		w += u
